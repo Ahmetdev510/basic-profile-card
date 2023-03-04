@@ -99,7 +99,6 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     column-gap: .625rem;
-    margin-top: .625rem;
     font-size: 2.5rem;
 }
 
@@ -151,8 +150,12 @@ footer {
     padding: .5rem;
 }
 
-@media(min-width: 320px) and (max-width: 480px) {
+/*? responsive start */
+
+@media(min-width: 320px) and (max-width: 768px) {
     html {
-        font-size: 13px;
+        font-size: 15px;
     }
 }
+
+/*? responsive end */
