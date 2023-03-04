@@ -158,10 +158,4 @@ footer {
     }
 }
 
-@media(min-width: 320px) and (max-width: 480px) {
-    .container .name-title {
-        margin: 0;
-    }
-}
-
 /*? responsive end */
